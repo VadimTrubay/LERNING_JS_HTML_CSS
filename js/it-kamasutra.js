@@ -21,7 +21,8 @@ function alertValue(params) {
 }
 
 alertValue();
-
+alertValue();
+alertValue();
 
 
 console.log(firstNameEl.value);
