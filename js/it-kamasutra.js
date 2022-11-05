@@ -33,6 +33,8 @@ console.log(avatarWrapperEl.innerHTML);
 console.log(avatarEl.src);
 console.log(avatarEl.alt);
 
+
+
 // firstNameEl.value = 'Vasia';
 // lastNameEl.value = 'Pupkin';
 
