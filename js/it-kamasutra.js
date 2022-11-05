@@ -13,28 +13,37 @@ var avatarWrapperEl = document.getElementById(avatarWrapperId);
 var avatarId = 'avatar';
 var avatarEl = document.getElementById(avatarId);
 
+function alertValue(params) {
+    console.log('1');
+    console.log('2');
+    console.log('3');
+    
+}
 
-// window.alert(firstNameEl.value);
-// window.alert(lastNameEl.value);
-// window.alert(adressEl.value);
-// window.alert(citiesEl.value);
-// window.alert(hobbiesEl.value);
-// window.alert(avatarWrapperEl.innerHTML);
-// window.alert(avatarEl.src);
-// window.alert(avatarEl.alt);
+alertValue();
+
+
+console.log(firstNameEl.value);
+console.log(lastNameEl.value);
+console.log(adressEl.value);
+console.log(citiesEl.value);
+console.log(hobbiesEl.value);
+console.log(avatarWrapperEl.innerHTML);
+console.log(avatarEl.src);
+console.log(avatarEl.alt);
 
 // firstNameEl.value = 'Vasia';
 // lastNameEl.value = 'Pupkin';
 
-window.alert(lastNameEl.className);
-lastNameEl.className = 'error';
-lastNameEl.title = 'This is Error';
+// console.log(lastNameEl.className);
+// lastNameEl.className = 'error';
+// lastNameEl.title = 'This is Error';
 
-avatarEl.src = 'https://planbphoto.com/wp-content/uploads/Serze.jpg';
-avatarEl.title = 'i am avatar';
-citiesEl.value = 'london';
-hobbiesEl.value = 'i am not iteresting';
-avatarWrapperEl.innerHTML = '<ul id="list"><li>1.<li>2.</ul>';
+// avatarEl.src = 'https://planbphoto.com/wp-content/uploads/Serze.jpg';
+// avatarEl.title = 'i am avatar';
+// citiesEl.value = 'london';
+// hobbiesEl.value = 'i am not iteresting';
+// avatarWrapperEl.innerHTML = '<ul id="list"><li>1.<li>2.</ul>';
 
 // var numberList = document.getElementById('list');
-// window.alert(numberList.innerHTML)	
+// console.log(numberList.innerHTML);	
