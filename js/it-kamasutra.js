@@ -26,15 +26,15 @@ var avatarEl = document.getElementById(avatarId);
 // firstNameEl.value = 'Vasia';
 // lastNameEl.value = 'Pupkin';
 
-// window.alert(lastNameEl.className);
-// lastNameEl.className = 'error';
-// lastNameEl.title = 'This is Error';
+window.alert(lastNameEl.className);
+lastNameEl.className = 'error';
+lastNameEl.title = 'This is Error';
 
-// avatarEl.src = 'https://planbphoto.com/wp-content/uploads/Serze.jpg';
-// avatarEl.title = 'i am avatar';
-// citiesEl.value = 'london';
-// hobbiesEl.value = 'i am not iteresting';
-// avatarWrapperEl.innerHTML = '<ul id="list"><li>1.<li>2.</ul>';
+avatarEl.src = 'https://planbphoto.com/wp-content/uploads/Serze.jpg';
+avatarEl.title = 'i am avatar';
+citiesEl.value = 'london';
+hobbiesEl.value = 'i am not iteresting';
+avatarWrapperEl.innerHTML = '<ul id="list"><li>1.<li>2.</ul>';
 
 // var numberList = document.getElementById('list');
 // window.alert(numberList.innerHTML)	
