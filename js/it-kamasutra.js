@@ -23,6 +23,7 @@ function alertValue(params) {
 alertValue();
 
 
+
 console.log(firstNameEl.value);
 console.log(lastNameEl.value);
 console.log(adressEl.value);
