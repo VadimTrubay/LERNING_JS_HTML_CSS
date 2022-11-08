@@ -1,40 +1,38 @@
-var firstNameId = 'first_name';
-var firstNameEl = document.getElementById(firstNameId);
-var lastNameId = 'last_name';
-var lastNameEl = document.getElementById(lastNameId);
-var adressId = 'adress';
-var adressEl = document.getElementById(adressId);
-var citiesId = 'cities';
-var citiesEl = document.getElementById(citiesId);
-var hobbiesId = 'hobbies';
-var hobbiesEl = document.getElementById(hobbiesId);
-var avatarWrapperId = 'avatar_wrapper';
-var avatarWrapperEl = document.getElementById(avatarWrapperId);
-var avatarId = 'avatar';
-var avatarEl = document.getElementById(avatarId);
-
-function alertValue(params) {
-    console.log('1');
-    console.log('2');
-    console.log('3');
+function alertValues(elementPerameter) {
+    debugger;
+    console.log(elementPerameter.value);
+    console.log(elementPerameter.className);
     
 }
 
-alertValue();
-alertValue();
-alertValue();
-alertValue();
 
+var firstNameId = 'first_name';
+var firstNameEl = document.getElementById(firstNameId);
+alertValues(firstNameEl);
 
-console.log(firstNameEl.value);
-console.log(lastNameEl.value);
-console.log(adressEl.value);
-console.log(citiesEl.value);
-console.log(hobbiesEl.value);
-console.log(avatarWrapperEl.innerHTML);
-console.log(avatarEl.src);
-console.log(avatarEl.alt);
+var lastNameId = 'last_name';
+var lastNameEl = document.getElementById(lastNameId);
+alertValues(lastNameEl);
 
+var adressId = 'adress';
+var adressEl = document.getElementById(adressId);
+alertValues(adressEl);
+
+var citiesId = 'cities';
+var citiesEl = document.getElementById(citiesId);
+alertValues(citiesEl);
+
+var hobbiesId = 'hobbies';
+var hobbiesEl = document.getElementById(hobbiesId);
+alertValues(hobbiesEl);
+
+var avatarWrapperId = 'avatar_wrapper';
+var avatarWrapperEl = document.getElementById(avatarWrapperId);
+alertValues(avatarWrapperEl);
+
+var avatarId = 'avatar';
+var avatarEl = document.getElementById(avatarId);
+alertValues(avatarEl);
 
 
 // firstNameEl.value = 'Vasia';
