@@ -1,7 +1,7 @@
-function alertValues(elementPerameter) {
+function alertValues(elementParameter) {
     debugger;
-    console.log(elementPerameter.value);
-    console.log(elementPerameter.className);
+    console.log(elementParameter.value);
+    console.log(elementParameter.className);
     
 }
 
@@ -35,18 +35,18 @@ var avatarEl = document.getElementById(avatarId);
 alertValues(avatarEl);
 
 
-// firstNameEl.value = 'Vasia';
-// lastNameEl.value = 'Pupkin';
+ firstNameEl.value = 'Vasia';
+ lastNameEl.value = 'Pupkin';
 
-// console.log(lastNameEl.className);
-// lastNameEl.className = 'error';
-// lastNameEl.title = 'This is Error';
+ console.log(lastNameEl.className);
+ lastNameEl.className = 'error';
+ lastNameEl.title = 'This is Error';
 
-// avatarEl.src = 'https://planbphoto.com/wp-content/uploads/Serze.jpg';
-// avatarEl.title = 'i am avatar';
-// citiesEl.value = 'london';
-// hobbiesEl.value = 'i am not iteresting';
-// avatarWrapperEl.innerHTML = '<ul id="list"><li>1.<li>2.</ul>';
+ avatarEl.src = 'https://planbphoto.com/wp-content/uploads/Serze.jpg';
+ avatarEl.title = 'i am avatar';
+ citiesEl.value = 'london';
+ hobbiesEl.value = 'i am not iteresting';
+ avatarWrapperEl.innerHTML = '<ul id="list"><li>1.<li>2.</ul>';
 
-// var numberList = document.getElementById('list');
-// console.log(numberList.innerHTML);	
+ var numberList = document.getElementById('list');
+ console.log(numberList.innerHTML);
